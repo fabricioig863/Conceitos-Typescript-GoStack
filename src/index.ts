@@ -1,4 +1,5 @@
 import express from 'express';
+const PORT = 3333;
 
 const app = express();
 
@@ -7,4 +8,6 @@ app.get('/', (request, response) => {
 })
 
 
-app.listen(3333);
+app.listen(PORT, () => {
+    console.log(`Server running na port...${PORT}`)
+});
