@@ -7,5 +7,5 @@ const app = express();
 app.get('/', helloWorld)
 
 app.listen(PORT, () => {
-    console.log(`Server running na port...${PORT}`)
+    console.log(`Server running port...${PORT}`)
 });
